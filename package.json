@@ -1,0 +1,24 @@
+{
+  "name": "binary-it-invoice-generator-google-app",
+  "version": "1.0.0",
+  "description": "This application works with google sheets, google docs to generate a invoice for client. ",
+  "main": "main.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/princebillyGK/binary-it-budget-generator-google-app.git"
+  },
+  "keywords": [
+    "binary",
+    "it",
+    "google"
+  ],
+  "author": "Prince Billy Graham Karmoker",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/princebillyGK/binary-it-budget-generator-google-app/issues"
+  },
+  "homepage": "https://github.com/princebillyGK/binary-it-budget-generator-google-app#readme"
+}
