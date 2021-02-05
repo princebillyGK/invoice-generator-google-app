@@ -1,5 +1,5 @@
 {
-  "name": "binary-it-invoice-generator-google-app",
+  "name": "invoice-generator-google-app",
   "version": "1.0.0",
   "description": "This application works with google sheets, google docs to generate a invoice for client. ",
   "main": "main.ts",
