@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/princebillyGK/binary-it-budget-generator-google-app/issues"
   },
-  "homepage": "https://github.com/princebillyGK/binary-it-budget-generator-google-app#readme"
+  "homepage": "https://github.com/princebillyGK/binary-it-budget-generator-google-app#readme",
+  "dependencies": {
+    "@types/google-apps-script": "^1.0.22"
+  }
 }
