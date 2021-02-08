@@ -1,2 +1,91 @@
 <?!= include("frontend/partial/common/header", {SCRIPT_URL}); ?>
+<!--for local test only comment this section before you push your app-->
+<!--<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" rel="stylesheet">-->
+<!--<link href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css" rel="stylesheet">-->
+<!--<link href="css/style.css" rel="stylesheet">-->
+<!--comment the above html codes before pushing-->
+
+<section class="hero is-medium section" id="home-hero">
+    <div class="container">
+        <div class="columns is-vcentered">
+            <div class="column">
+                <p class="title">Invoice Generator</p>
+                <p class="subtitle">Add the power of Google services with your bussiness.</p>
+                <a class="button is-black" href='<?=SCRIPT_URL?>?page=new' target="_top">Create new Invoice</a>
+            </div>
+            <div class="column">
+                <figure class="image">
+                    <img alt="Google Services" src="https://i.ibb.co/hsVfxMN/services.png">
+                </figure>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="section" id="features">
+    <div class="container">
+        <h1 class="title">Features</h1>
+        <h2 class="subtitle">
+            Use the power of Google Sheet to make and generate your invoices online and send it to your client.
+        </h2>
+        <div class="content">
+            <ul>
+                <li>Create new Invoice in google drive.</li>
+                <li>Make your invoice inside google sheet</li>
+                <li>Generate your invoice in google doc with one click</li>
+                <li>Share your invoice to our customers</li>
+                <li>Generate pdf of your invoice</li>
+            </ul>
+        </div>
+    </div>
+</section>
+
+<section class="section" id="developer">
+    <div class="container is-centered">
+        <h1 class="title">Developer Information</h1>
+        <div class="box has-background-light columns is-centered">
+            <div class="column is-narrow">
+                <figure class="image is-128x128">
+                    <img alt="Prince Billy Graham Karmoker" class="is-rounded"
+                         src="https://i.ibb.co/WtrRyhS/42868891-s-460-u-cf5f3bfe4b607fa52e80cb0ceae06b4f7d285f51-v-4.png">
+                </figure>
+            </div>
+            <div class="column is-narrow">
+                <h2 class="label is-4">Prince Billy Graham<span class="ml-2 tag is-black">@princebillygk</span></h2>
+                <p class="block">
+                    Hi, nice to meet you. Thanks for installing my service. Please don't forget to follow my Github. You
+                    can
+                    also support me by Patreon.
+                </p>
+                <div class="field is-grouped">
+                    <p class="control">
+                        <a class="button is-light is-primary is-small" href="https://www.patreon.com/princebillygk"
+                           target="_blank">
+                            <span class="icon"><i class="fab fa-patreon"></i></span>
+                            <span>Patreon</span>
+                        </a>
+                    </p>
+
+                    <p class="control">
+                        <a class="button is-light is-primary is-small" href="https://github.com/princebillyGK"
+                           target="_blank">
+                            <span class="icon"><i class="fab fa-github"></i></span>
+                            <span>Github</span>
+                        </a>
+                    </p>
+
+                    <p class="control">
+                        <a class="button is-light is-primary is-small" href="https://www.linkedin.com/in/princebillygk/"
+                           target="_blank">
+                            <span class="icon"><i class="fab fa-linkedin-in"></i></span>
+                            <span>Linkedin</span>
+                        </a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
 <?!= include("frontend/partial/common/footer"); ?>
